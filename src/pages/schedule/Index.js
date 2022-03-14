@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './Index.css';
 import { useDispatch, useSelector } from "react-redux";
 import PersistentDrawerLeft from '../../components/navbar/Navbar';

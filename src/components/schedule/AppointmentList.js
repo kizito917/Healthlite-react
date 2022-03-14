@@ -26,7 +26,7 @@ function AppointmentList({appointmentList}) {
             </div>
             <div className="list mt-4">
                 {
-                    appointmentList.map((patient) => {
+                    patients.map((patient) => {
                         return (
                             <div className="flex gap-4 mb-4" key={patient.name}>
                                 <h4 className="text-sm">{moment(patient.createdAt).format('h:mm a')}</h4>

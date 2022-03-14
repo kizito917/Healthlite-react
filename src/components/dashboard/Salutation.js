@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { useSelector } from 'react-redux';
 import { Button} from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import VisibilityIcon from '@mui/icons-material/Visibility';
