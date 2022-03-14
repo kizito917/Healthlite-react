@@ -6,7 +6,6 @@ import moment from "moment";
 
 function PatientList({allPatients}) {
     const [patients,setPatients] = useState(allPatients);
-    //console.log(patients)
     return (
         <div className="mt-4 bg-default rounded-md px-4">
             <div className="flex justify-between pt-4">

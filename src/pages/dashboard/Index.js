@@ -20,7 +20,6 @@ function Dashboard() {
     setTimeout(() => {
         setIsLoading(true)
     }, 500);
-    //console.log(dashboardData.patientStats[0])
     return (
         <>
             {
