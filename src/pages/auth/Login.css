@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    background: #1565D8;
+}
+
+.content-area {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

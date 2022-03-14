@@ -1,0 +1,14 @@
+section {
+    margin: 0px;
+}
+
+.main-container {
+    margin-left: 230px;
+}
+
+.appt-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* object-fit: cover; */
+}

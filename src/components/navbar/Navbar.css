@@ -1,0 +1,21 @@
+.selected {
+    background: White;
+}
+
+.hideSideBar {
+    display: none !important;
+}
+
+.topProfileArea {
+    margin-left: 92%;
+}
+
+@media only screen and (max-width: 800px) {
+    .hideSideBar {
+        display: block !important;
+    }
+
+    .topProfileArea {
+        margin-left: 0%;
+    }
+}
