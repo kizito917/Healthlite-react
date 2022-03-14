@@ -13,7 +13,7 @@ function Schedule() {
         dispatch({ type: "FETCH_SCHEDULE_DATA"})
     })
     const scheduleData = useSelector(state => state.scheduleData);
-    console.log(scheduleData)
+    //console.log(scheduleData.appointments)
     return (
         <section style={{ background: 'whitesmoke'}}>
             <PersistentDrawerLeft />

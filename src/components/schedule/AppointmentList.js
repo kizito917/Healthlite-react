@@ -5,7 +5,8 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import moment from "moment";
 
 function AppointmentList({appointmentList}) {
-    const [patients,setPatients] = useState(appointmentList)
+    console.log(appointmentList)
+    // const [patients,setPatients] = useState(appointmentList)
     return (
         <div className="bg-default rounded-md px-4">
             <div className="flex justify-between pt-4">
@@ -26,7 +27,7 @@ function AppointmentList({appointmentList}) {
             </div>
             <div className="list mt-4">
                 {
-                    patients.map((patient) => {
+                    appointmentList.map((patient) => {
                         return (
                             <div className="flex gap-4 mb-4" key={patient.name}>
                                 <h4 className="text-sm">{moment(patient.createdAt).format('h:mm a')}</h4>
