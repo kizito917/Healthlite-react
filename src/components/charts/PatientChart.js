@@ -3,7 +3,6 @@ import Chart from "react-apexcharts";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function PatientChart({stats}) {
-    //console.log(stats)
     var [chartInfo, setChartInfo] = useState({
         options: {
             chart: {
